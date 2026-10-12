@@ -32,6 +32,10 @@ input {
   font-size: 1rem;
 }
 
+.input-group:first-child {
+  margin-top: 1rem;
+}
+
 .input-group {
   margin-bottom: 2rem;
 }
