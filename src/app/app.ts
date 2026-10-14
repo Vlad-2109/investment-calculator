@@ -1,13 +1,10 @@
 import { Component, signal } from '@angular/core';
 
-import { HeaderComponent } from './header';
-import { UserInputComponent } from './user-input';
-import type { InvestmentData, InvestmentResult } from './app.model';
-import { InvestmentResultsComponent } from './investment-results';
+import type { InvestmentResult } from './app.model';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, UserInputComponent, InvestmentResultsComponent],
+  standalone: false,
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
